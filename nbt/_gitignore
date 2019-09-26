@@ -1,0 +1,12 @@
+# ignore all files in the build directory
+
+build*/
+
+#ignore all built binaries
+bin/
+
+.vs/
+.vscode/
+
+# ignore all the doxygen-created documentation
+docs/html

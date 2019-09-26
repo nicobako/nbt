@@ -1,0 +1,30 @@
+# global properties
+version=1.0.0
+
+     # should ignore lines with only spaces and tabs
+
+	 
+# a section with numbers
+[section_0]
+property_0=0   # should work with no spaces
+property_1 = 1 # should work with spaces
+
+#a section with characters
+[section_1]
+property_0=Hello
+property_1 = World
+
+[section_2]
+oeu
+
+[section with spaces]
+property with spaces =  value with spaces
+
+[list]
+one
+two
+three
+four
+
+[1_section_with_num_at_beginning]
+1_property_with_num_at_beginning = 1_value_with_num_at_beginning

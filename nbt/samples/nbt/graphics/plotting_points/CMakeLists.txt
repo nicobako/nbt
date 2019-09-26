@@ -1,0 +1,7 @@
+# dir nbt/samples/nbt/graphics/simple_usage
+
+add_executable(sample_nbt_graphics_plotting_points plotting_points.cpp)
+
+target_link_libraries(sample_nbt_graphics_plotting_points nbt_graphics)
+
+add_dependencies(sample_nbt_graphics_plotting_points nbt_graphics)

@@ -1,0 +1,7 @@
+# dir nbt/samples/nbt/graphics/simple_usage
+
+add_executable(sample_nbt_graphics_window_creation window_creation.cpp)
+
+target_link_libraries(sample_nbt_graphics_window_creation nbt_graphics)
+
+add_dependencies(sample_nbt_graphics_window_creation nbt_graphics)

@@ -1,0 +1,13 @@
+
+run_all:
+    variables:
+        GIT_STRATEGY: clone
+        GIT_SUBMODULE_STRATEGY: recursive
+    script:
+        - mkdir build
+        - cd build
+        - cmake ../ -G "Visual Studio 16 2019" -A Win32
+        - cmake --build ./ --config Release
+        - cmake --build ./ --target RUN_TESTS --config Release
+        - cmake --build ./ --target INSTALL --config Release
+
